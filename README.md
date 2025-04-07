@@ -1,9 +1,11 @@
 # RC4-Cross-Platform
-An easy RC4 C++/C# compatible implementation for both programming languages.
+A simple and consistent RC4 encryption implementation for both C++ and C#.
 
-# What does it mean ?
-Well, a lot of times I've had issues with various types of algorithms of RC4 encryption to be different on different languages.
-This is an easy and clean implementation of RC4 working on both programming language and being same
+# Overview
+This project provides a lightweight, cross-compatible RC4 encryption implementation designed to work seamlessly across C++ and C#. It eliminates the inconsistencies often encountered when using different RC4 implementations in different programming languages.
 
-# And?
-You can communicate between C++ and C# with this RC4 encryption 
+# Why Use This?
+In many cross-platform or cross-language applications, ensuring consistent encryption and decryption results across languages can be challenging. This implementation is designed to produce identical outputs in both C++ and C#, making it ideal for secure communication between systems written in either language.
+
+# Use Case
+Perfect for scenarios where encrypted communication is required between a C++ application and a C# application. With this shared RC4 implementation, you can confidently exchange encrypted data across platforms without worrying about discrepancies in the algorithm’s behavior.
